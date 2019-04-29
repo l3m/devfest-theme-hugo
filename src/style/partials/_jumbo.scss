@@ -1,7 +1,7 @@
 
 .jumbo {
   position: relative;
-  height: calc(100vh - var(--toolbar-height));
+  height: calc(90vh - var(--toolbar-height));
   max-width: 100%;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@
   .jumbo-cover {
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center top;
     position: absolute;
     top: 0;
     right: 0;
@@ -44,7 +44,7 @@
     left: 0;
     opacity: 1;
     &.show {
-      opacity: var(--jumbo-overlay-opacity, 0.6);
+      opacity: var(--jumbo-overlay-opacity, 0.4);
     }
   }
   .inner-wrapper{
